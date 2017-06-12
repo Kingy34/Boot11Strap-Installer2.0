@@ -3,7 +3,8 @@
 #include "command.h"
 #include "log.h"
 
-// Thanks for the info, google!
+// wowe hey kingy can i credit your team here k thanks
+// oh wait this is my app
 
 int main(int argc, char **argv) {
     gfxInitDefault();
