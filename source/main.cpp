@@ -83,6 +83,17 @@ int main(int argc, char **argv) {
 			svcSleepThread(2000000000);
 			reboot();
 		}
+	                else if (kDown & KEY_A) {
+				printf("boot11strap installer\n");
+				printf("Version ");
+				ver(); // Checks the verdion from a header file
+				printf(" \n\n");
+				printf("What's new:\n");
+				log();
+				printf(" \n\n"); //Would be cleaner if you added '\n\n' to the final printf statement, but eh, it's your code.
+			        printf("Press A to safe install\n");
+				//Add your extra choices here once completed
+			}
 
         gfxFlushBuffers();
         gfxSwapBuffers();
