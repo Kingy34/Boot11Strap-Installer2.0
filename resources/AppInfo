@@ -1,5 +1,5 @@
-APP_TITLE = Homebrew Template
-APP_DESCRIPTION = 3DS homebrew template.
-APP_AUTHOR = YourName
-APP_PRODUCT_CODE = Your-Code
+APP_TITLE = B11SInstallerUpdater2
+APP_DESCRIPTION = Update And Install B11S
+APP_AUTHOR = Stovven & B11S Devs
+APP_PRODUCT_CODE = INSTALL2
 APP_UNIQUE_ID = 0x1929
